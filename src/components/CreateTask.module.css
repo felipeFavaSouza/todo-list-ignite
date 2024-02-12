@@ -1,0 +1,37 @@
+.taskForm {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.taskForm textarea {
+  background: var(--gray-500);
+  border-radius: 8px;
+  color: var(--gray-300);
+  resize: none;
+  padding: 0.5rem;
+  line-height: 1.4;
+  width: 100%;
+  border: 0;
+}
+
+.taskForm button {
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  border-radius: 8px;
+  width: 5.6rem;
+  padding: 1rem;
+  height: 100%;
+  line-height: 1.4;
+  border: 0;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.taskForm button:hover {
+  background: var(--blue);
+}
