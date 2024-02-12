@@ -5,12 +5,12 @@ export function ListHeader({ tasksCounter, checkedTasksCounter }) {
   return (
     <header className={styles.container}>
       <aside>
-        <p>Tarefas criadas</p>
+        <p>Created Tasks</p>
         <span>{tasksCounter}</span>
       </aside>
 
       <aside>
-        <p>Concluídas</p>
+        <p>Completed</p>
         <span>
           {tasksCounter === 0
             ? tasksCounter
